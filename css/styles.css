@@ -19,6 +19,7 @@ h3{
     font-family: 'montserrat';
     font-weight: 800;
     font-size:1.7rem;
+    
 }
 p{
     color:#494949;
@@ -47,15 +48,33 @@ p{
 margin:5% 3% 5% 0;
 font-size: large;
 }
-/* --------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------CLASS--------------------------------------------------------------- */
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+
 }
-/* ------------------------------------------------------IMAGE------------------------------------------------------- */
+.features-box{
+    text-align: center;
+    padding:3%;
+   
+}
+.press-logo{
+    width: 15%;
+    margin:3% 3%;
+}
+.pricing-col{
+    padding:10%;
+}
+.socials{
+    margin:3% 3%;
+}
+/*-----------------------------------------------------IMAGE------------------------------------------------------- */
 .title-img{
-width: 50%;
+width: 20%;
 transform: rotate(20deg);
+position: absolute;
+left: 55%;
 
 }
 .fa-circle-check{
@@ -72,14 +91,61 @@ transform: rotate(20deg);
 
 }
 
+.testimonials-image{
+    border-radius: 100%;
+    margin-top:10%;
+}
+
 
 /* -----------------------------------------------------------FEATURES-------------------------------------------- */
-.features-box{
+#cta{
+    
+    background-color: #fa1034;
+    color:white;
     text-align: center;
-    padding:3%;
-   
+    padding:3% 7%;
 }
+
+.CTA-heading{
+    font-size: 2.5rem;
+}
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
 
 #features{
     padding:3% 5%;
+    background-color: white;
+    position: relative;
 }
+#testimonials{
+   padding:3% 20%;
+   text-align: center;
+   background-color:#fa1034;
+   color:white;
+   font-family: 'ubuntu',sans-serif;
+   
+}
+#press{
+    background-color:#fa1034;
+    text-align: center;
+    padding: 5% 3%;
+       
+}
+
+#pricing{
+    margin:100px;
+}
+/*---------------------------------------------MEDIA QUERY -------------------------------------------------------------*/
+@media (max-width:1000px){
+    .title-img{
+        position: static;
+        width:30%;
+        transform: rotate(0);
+        margin-left:auto;
+    }
+}
+
